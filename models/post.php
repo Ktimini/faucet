@@ -37,4 +37,3 @@
       return new Post($post['id'], $post['author'], $post['content']);
     }
   }
-?>
