@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="faucet bitcoin" content="">
-    <meta name="author" content="stephane">
+    <meta name="author" content="Stéphane Perrin">
     <link rel="icon" href="../../../../favicon.ico">
 
     <title>Faucet Bitcoin</title>
-
+    <!-- Re-Captcha -->
+    <script src="https://www.google.com/recaptcha/api.js"></script
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="http://getbootstrap.com/docs/3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/css/style.css">
-    <!-- Custom styles for this template -->
 
 </head>
 
@@ -45,9 +45,7 @@
 
 <main role="main" class="container">
 
-    <div class="starter-template" style="padding-top: 75px">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+    <div class="starter-template">
         <?php require_once('routes.php'); ?>
     </div>
 

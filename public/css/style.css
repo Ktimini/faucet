@@ -1,3 +1,12 @@
-.container {
-    text-align: center;
+body{
+padding-top: 70px;
+}
+div {
+    border: aquamarine solid 1px;
+}
+
+#faucetForm {
+    display: flex;
+    flex-direction: column;
+
 }
