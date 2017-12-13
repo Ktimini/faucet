@@ -1,5 +1,6 @@
 <?php
-  class Db {
+
+class Db {
     private static $instance = NULL;
 
     public static function getInstance() {

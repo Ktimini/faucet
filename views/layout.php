@@ -9,7 +9,7 @@
 
     <title>Faucet Bitcoin</title>
     <!-- Re-Captcha -->
-    <script src="https://www.google.com/recaptcha/api.js"></script
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="http://getbootstrap.com/docs/3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/css/style.css">
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-
+<header>
 <nav class="navbar navbar-inverse navbar-fixed-top">
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -42,7 +42,7 @@
         </ul>
     </div>
 </nav>
-
+</header>
 <main role="main" class="container">
 
     <div class="starter-template">
@@ -56,7 +56,7 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
+<script src="public/js/main.js"></script>
 <script src="http://getbootstrap.com/docs/3.3/dist/js/bootstrap.min.js"></script>
 <script src="http://getbootstrap.com/docs/3.3/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>

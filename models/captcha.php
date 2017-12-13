@@ -6,18 +6,16 @@
  * Time: 15:53
  */
 
-namespace captcha;
 
-
-class recaptcha
+class Captcha
 {
-    public function captchaGoogle()
+    public static function reCaptcha()
     {
-        // Ma clé privée
+        // Clé privée
         $secret = "6LfL8hgUAAAAANEJ49YY4rosuMzcMliFkGLmK9TB";
-        // Paramètre renvoyé par le recaptcha
+        // Retour recaptcha
         $response = $_POST['g-recaptcha-response'];
-        // On récupère l'IP de l'utilisateur
+        // IP utilisateur
         $remoteip = $_SERVER['REMOTE_ADDR'];
 
         $api_url = "https://www.google.com/recaptcha/api/siteverify?secret="
@@ -27,10 +25,7 @@ class recaptcha
 
         $decode = json_decode(file_get_contents($api_url), true);
 
-        if ($decode['success'] == true) {
+        return $decode['success'];
 
-        } else {
-            require_once('views/pages/error.php');
-        }
     }
 }
