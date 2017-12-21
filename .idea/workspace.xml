@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe7fabc-14ed-4dc2-83dc-4c8538799da3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/control.php" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/controllers/claim_controller.php" afterPath="$PROJECT_DIR$/controllers/claim_controller.php" />
-      <change beforePath="$PROJECT_DIR$/models/captcha.php" afterPath="$PROJECT_DIR$/models/captcha.php" />
-      <change beforePath="$PROJECT_DIR$/models/claim.php" afterPath="$PROJECT_DIR$/models/claim.php" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/routes.php" afterPath="$PROJECT_DIR$/routes.php" />
-      <change beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
-      <change beforePath="$PROJECT_DIR$/views/layout.php" afterPath="$PROJECT_DIR$/views/layout.php" />
-      <change beforePath="$PROJECT_DIR$/views/pages/home.php" afterPath="$PROJECT_DIR$/views/pages/home.php" />
+      <change beforePath="$PROJECT_DIR$/models/control.php" afterPath="$PROJECT_DIR$/models/control.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +17,7 @@
       <file leaf-file-name="claim.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/claim.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="256">
               <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
                 <marker date="1513844536571" expanded="true" signature="508:522" ph="SELECT * FRO... posts" />
@@ -40,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="claim_controller.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="claim_controller.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/claim_controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="256">
+              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="e#7#64#0#PHP" expanded="false" />
               </folding>
@@ -92,16 +82,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="control.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="control.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/control.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="621">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
-                <marker date="1513850359573" expanded="true" signature="457:467" ph="SELECT ${$ip... " />
-                <marker date="1513850359573" expanded="true" signature="457:494" ph="SELECT ip fr... ip_lock" />
-                <marker date="1513850359573" expanded="true" signature="641:691" ph="SELECT addre... address_lock" />
-                <marker date="1513850359573" expanded="true" signature="641:698" ph="SELECT addre... address_lock" />
+                <marker date="1513865004826" expanded="true" signature="458:465" ph="SELECT ${$ip... " />
+                <marker date="1513865004826" expanded="true" signature="458:479" ph="SELECT ip fr... ip_lock" />
+                <marker date="1513865004826" expanded="true" signature="699:725" ph="SELECT addre... address_lock" />
               </folding>
             </state>
           </provider>
@@ -144,9 +133,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/views/layout.php" />
         <option value="$PROJECT_DIR$/views/pages/home.php" />
-        <option value="$PROJECT_DIR$/controllers/claim_controller.php" />
         <option value="$PROJECT_DIR$/routes.php" />
         <option value="$PROJECT_DIR$/models/control.php" />
+        <option value="$PROJECT_DIR$/controllers/claim_controller.php" />
       </list>
     </option>
   </component>
@@ -251,6 +240,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\faucet\models" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -377,12 +371,12 @@
       <workItem from="1513584386037" duration="5830000" />
       <workItem from="1513669072350" duration="604000" />
       <workItem from="1513756334962" duration="1800000" />
-      <workItem from="1513844402449" duration="5963000" />
+      <workItem from="1513844402449" duration="11497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63185000" />
+    <option name="totallyTimeSpent" value="68719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="44" width="1671" height="740" extended-state="0" />
@@ -785,9 +779,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/claim.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="256">
           <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
           <folding>
             <marker date="1513844536571" expanded="true" signature="508:522" ph="SELECT * FRO... posts" />
@@ -799,33 +801,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/claim_controller.php">
+    <entry file="file://$PROJECT_DIR$/models/control.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="621">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <element signature="e#7#64#0#PHP" expanded="false" />
+            <marker date="1513865004826" expanded="true" signature="458:465" ph="SELECT ${$ip... " />
+            <marker date="1513865004826" expanded="true" signature="458:479" ph="SELECT ip fr... ip_lock" />
+            <marker date="1513865004826" expanded="true" signature="699:725" ph="SELECT addre... address_lock" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes.php">
+    <entry file="file://$PROJECT_DIR$/controllers/claim_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/control.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="256">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
-            <marker date="1513850359573" expanded="true" signature="457:467" ph="SELECT ${$ip... " />
-            <marker date="1513850359573" expanded="true" signature="457:494" ph="SELECT ip fr... ip_lock" />
-            <marker date="1513850359573" expanded="true" signature="641:691" ph="SELECT addre... address_lock" />
-            <marker date="1513850359573" expanded="true" signature="641:698" ph="SELECT addre... address_lock" />
+            <element signature="e#7#64#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

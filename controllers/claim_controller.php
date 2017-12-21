@@ -21,13 +21,13 @@ class ClaimController
             $address = $_POST['btcAddress'];
             $remoteip = $_SERVER['REMOTE_ADDR'];
             $control = Control::control($remoteip, $address);
-
+            
             switch ($control) {
                 case 1:
-                    'views/pages/home.php';
+                    require_once 'views/pages/home.php';
                     break;
                 case 2:
-                    'views/pages/home.php';
+                    require_once 'views/pages/home.php';
                     break;
                 case 3:
                     Claim::getClaim($address);

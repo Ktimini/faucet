@@ -25,14 +25,22 @@ class Control
     public static function control($ip, $address)
     {
         $db = Db::getInstance();
-        $req = $db->exec("SELECT ip FROM ip_lock WHERE $ip = ip");
+        $req = $db->query("SELECT * FROM ip_lock");
 
-        if ($req = !NULL) {
-            $result = Control::IP_BAN;
-            return $result;
-        } else {
-            $req = $db->exec("SELECT address FROM address_lock WHERE $address = address");
-            if ($req = !NULL) {
+        foreach ($req->fetchAll() as $test) {
+
+            if ($test['ip'] === $ip) {
+
+                $result = Control::IP_BAN;
+                return $result;
+
+            }
+        }
+
+        $req = $db->query("SELECT * FROM address_lock");
+
+        foreach ($req->fetchAll() as $addressLock) {
+            if ($addressLock['address'] === $address) {
                 $result = Control::ADDRESS_BAN;
                 return $result;
             } else {
@@ -40,6 +48,7 @@ class Control
                 return $result;
             }
         }
+        $req->closeCursor();
     }
 }
 
