@@ -5,8 +5,35 @@ div {
     border: aquamarine solid 1px;
 }
 
+/*main section*/
 #faucetForm {
     display: flex;
     flex-direction: column;
-
+    margin: auto;
 }
+
+aside {
+    height: 600px;
+    width: 160px;
+}
+
+#mainSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+#btcAddress {
+    margin-top: 20px;
+    font-style: italic;
+    color: gray;
+    font-size: 0.9em;
+}
+
+#claimButton {
+    max-width: 30%;
+    margin: auto;
+}
+
+.g-recaptcha {
+    margin: 20px auto;
+}  /* end main section*/

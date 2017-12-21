@@ -11,22 +11,35 @@ class ClaimController
     public function reCaptcha()
     {
         $result = Captcha::reCaptcha();
-        if ($result == true) {
-            self::claim();
-        } else {
-            require_once 'views/pages/home.php';
-        }
-
+        return $result;
     }
 
     public function claim()
     {
-        self::reCaptcha();
-        if (isset($_POST['btcAdress'])) {
-            $address = $_POST['btcAdress'];
-            Address::claim($address);
+       // $result = self::reCaptcha();
+        //if ($result == true && isset($_POST['btcAddress'])) {
+            $address = $_POST['btcAddress'];
+            $remoteip = $_SERVER['REMOTE_ADDR'];
+            $control = Control::control($remoteip, $address);
 
+            switch ($control) {
+                case 1:
+                    'views/pages/home.php';
+                    break;
+                case 2:
+                    'views/pages/home.php';
+                    break;
+                case 3:
+                    Claim::getClaim($address);
+                    break;
+            }
         }
+
+    //}
+
+    public function connect()
+    {
+
     }
 
 }

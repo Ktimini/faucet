@@ -11,11 +11,11 @@ class Captcha
 {
     public static function reCaptcha()
     {
-        // Clé privée
+        // Private key
         $secret = "6LfL8hgUAAAAANEJ49YY4rosuMzcMliFkGLmK9TB";
-        // Retour recaptcha
+        // Response recaptcha
         $response = $_POST['g-recaptcha-response'];
-        // IP utilisateur
+        // User IP
         $remoteip = $_SERVER['REMOTE_ADDR'];
 
         $api_url = "https://www.google.com/recaptcha/api/siteverify?secret="

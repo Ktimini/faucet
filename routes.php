@@ -14,6 +14,7 @@ function call($controller, $action)
             $controller = new PostsController();
             break;
         case 'claim':
+            require_once('models/control.php');
             require_once('models/captcha.php');
             require_once('models/claim.php');
             $controller = new ClaimController();
@@ -26,7 +27,7 @@ function call($controller, $action)
 // we're adding an entry for the new controller and its actions
 $controllers = array('pages' => ['home', 'error'],
     'posts' => ['index', 'show'],
-    'claim' => ['reCaptcha', 'claim']);
+    'claim' => ['reCaptcha', 'claim', 'connect']);
 
 if (array_key_exists($controller, $controllers)) {
     if (in_array($action, $controllers[$controller])) {
