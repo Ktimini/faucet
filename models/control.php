@@ -66,11 +66,11 @@ class Control
         $obj = json_decode($result, true);
         if ($obj['block'] == '1') {
             $db = Db::getInstance();
-            $reqAddress = $db->prepare("INSERT INTO address_lock(address)) VALUE :address");
+            $reqAddress = $db->prepare("INSERT INTO address_lock(address) VALUES (:address)");
             $reqAddress->execute(array('address' => $address));
-            $reqIp = $db->prepare("INSERT INTO ip_lock(ip)) VALUE :address");
+            $reqIp = $db->prepare("INSERT INTO ip_lock(ip) VALUES (:ip)");
             $reqIp->execute(array('ip' => $ip));
-            echo '<script>window.location.href="../blocked.html";</script>';
+            // echo '<script>window.location.href="../blocked.html";</script>';
             die;
         }
         $result = Control::CONTROL_PASS;

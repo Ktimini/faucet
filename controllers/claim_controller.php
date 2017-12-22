@@ -16,8 +16,8 @@ class ClaimController
 
     public function claim()
     {
-        // $result = self::reCaptcha();
-        //if ($result == true && isset($_POST['btcAddress'])) {
+        $result = self::reCaptcha();
+        if ($result == true && isset($_POST['btcAddress'])) {
         $address = $_POST['btcAddress'];
         $remoteip = $_SERVER['REMOTE_ADDR'];
         $control = Control::control($remoteip, $address);
@@ -35,7 +35,7 @@ class ClaimController
         }
     }
 
-    //}
+    }
 
     public function connect()
     {

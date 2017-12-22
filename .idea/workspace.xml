@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe7fabc-14ed-4dc2-83dc-4c8538799da3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/controllers/claim_controller.php" afterPath="$PROJECT_DIR$/controllers/claim_controller.php" />
       <change beforePath="$PROJECT_DIR$/models/control.php" afterPath="$PROJECT_DIR$/models/control.php" />
     </list>
@@ -18,8 +17,8 @@
       <file leaf-file-name="claim.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/claim.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="145" />
+            <state relative-caret-position="397">
+              <caret line="46" column="47" lean-forward="true" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
               <folding>
                 <marker date="1513844536571" expanded="true" signature="508:522" ph="SELECT * FRO... posts" />
                 <marker date="1513844536571" expanded="true" signature="508:529" ph="SELECT * FRO... address" />
@@ -31,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="claim_controller.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="claim_controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/claim_controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+            <state relative-caret-position="173">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="e#7#64#0#PHP" expanded="false" />
               </folding>
@@ -83,17 +82,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="control.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="control.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/control.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+            <state relative-caret-position="509">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
-                <marker date="1513948873001" expanded="true" signature="458:465" ph="SELECT ${$ip... " />
-                <marker date="1513948873001" expanded="true" signature="458:479" ph="SELECT ip fr... ip_lock" />
-                <marker date="1513948873001" expanded="true" signature="700:726" ph="SELECT addre... address_lock" />
-                <marker date="1513948873001" expanded="true" signature="1717:1766" ph="INSERT INTO address_lock... " />
-                <marker date="1513948873001" expanded="true" signature="1869:1908" ph="INSERT INTO ip_lock... " />
+                <marker date="1513951269832" expanded="true" signature="458:465" ph="SELECT ${$ip... " />
+                <marker date="1513951269832" expanded="true" signature="458:479" ph="SELECT ip fr... ip_lock" />
+                <marker date="1513951269832" expanded="true" signature="700:726" ph="SELECT addre... address_lock" />
+                <marker date="1513951269832" expanded="true" signature="1717:1758" ph="INSERT INTO address_lock... " />
+                <marker date="1513951269832" expanded="true" signature="1717:1768" ph="INSERT INTO address_lock... " />
+                <marker date="1513951269832" expanded="true" signature="1871:1907" ph="INSERT INTO ip_lock... " />
               </folding>
             </state>
           </provider>
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/views/layout.php" />
         <option value="$PROJECT_DIR$/views/pages/home.php" />
         <option value="$PROJECT_DIR$/routes.php" />
-        <option value="$PROJECT_DIR$/models/control.php" />
         <option value="$PROJECT_DIR$/controllers/claim_controller.php" />
+        <option value="$PROJECT_DIR$/models/control.php" />
       </list>
     </option>
   </component>
@@ -149,9 +149,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="36" />
-    <option name="y" value="118" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="12" />
+    <option name="y" value="178" />
     <option name="width" value="1593" />
     <option name="height" value="740" />
   </component>
@@ -376,15 +376,15 @@
       <workItem from="1513756334962" duration="1800000" />
       <workItem from="1513844402449" duration="13986000" />
       <workItem from="1513925926996" duration="356000" />
-      <workItem from="1513945920938" duration="1907000" />
+      <workItem from="1513945920938" duration="4386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73471000" />
+    <option name="totallyTimeSpent" value="75950000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="118" width="1593" height="740" extended-state="1" />
+    <frame x="12" y="178" width="1593" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -779,10 +779,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/claim_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#7#64#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/claim.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="145" />
+        <state relative-caret-position="397">
+          <caret line="46" column="47" lean-forward="true" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
           <folding>
             <marker date="1513844536571" expanded="true" signature="508:522" ph="SELECT * FRO... posts" />
             <marker date="1513844536571" expanded="true" signature="508:529" ph="SELECT * FRO... address" />
@@ -795,24 +805,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/control.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        <state relative-caret-position="509">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
-            <marker date="1513948873001" expanded="true" signature="458:465" ph="SELECT ${$ip... " />
-            <marker date="1513948873001" expanded="true" signature="458:479" ph="SELECT ip fr... ip_lock" />
-            <marker date="1513948873001" expanded="true" signature="700:726" ph="SELECT addre... address_lock" />
-            <marker date="1513948873001" expanded="true" signature="1717:1766" ph="INSERT INTO address_lock... " />
-            <marker date="1513948873001" expanded="true" signature="1869:1908" ph="INSERT INTO ip_lock... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/claim_controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding>
-            <element signature="e#7#64#0#PHP" expanded="false" />
+            <marker date="1513951269832" expanded="true" signature="458:465" ph="SELECT ${$ip... " />
+            <marker date="1513951269832" expanded="true" signature="458:479" ph="SELECT ip fr... ip_lock" />
+            <marker date="1513951269832" expanded="true" signature="700:726" ph="SELECT addre... address_lock" />
+            <marker date="1513951269832" expanded="true" signature="1717:1758" ph="INSERT INTO address_lock... " />
+            <marker date="1513951269832" expanded="true" signature="1717:1768" ph="INSERT INTO address_lock... " />
+            <marker date="1513951269832" expanded="true" signature="1871:1907" ph="INSERT INTO ip_lock... " />
           </folding>
         </state>
       </provider>
