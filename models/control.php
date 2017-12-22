@@ -32,6 +32,7 @@ class Control
             if ($test['ip'] === $ip) {
 
                 $result = Control::IP_BAN;
+
                 return $result;
 
             }
@@ -44,14 +45,39 @@ class Control
                 $result = Control::ADDRESS_BAN;
                 return $result;
             } else {
-                $result = Control::CONTROL_PASS;
+                $result = self::ipHub($ip, $address);
                 return $result;
             }
         }
         $req->closeCursor();
     }
+
+    public static function ipHub($remoteIp, $address)
+    {
+        $ip = $remoteIp;
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_URL, 'http://v2.api.iphub.info/ip/' . $ip);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array('X-Key: Njg6eUdVVE4zVXA5UXBPbXV5YjhuT3JjQ2YzOGRWZW44VHE='));
+        $result = curl_exec($ch);
+        curl_close($ch);
+
+        $obj = json_decode($result, true);
+        if ($obj['block'] == '1') {
+            $db = Db::getInstance();
+            $reqAddress = $db->prepare("INSERT INTO address_lock(address)) VALUE :address");
+            $reqAddress->execute(array('address' => $address));
+            $reqIp = $db->prepare("INSERT INTO ip_lock(ip)) VALUE :address");
+            $reqIp->execute(array('ip' => $ip));
+            echo '<script>window.location.href="../blocked.html";</script>';
+            die;
+        }
+        $result = Control::CONTROL_PASS;
+        return $result;
+    }
 }
 
-// $controlIp = new \models\control\Control();
+
 
 
